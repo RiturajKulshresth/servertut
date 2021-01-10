@@ -1,0 +1,30 @@
+To run the server 1 and server 2 use respective files enter the port number that
+    you want to use as a command line argument as shown in the tutorial.pdf file shared
+Other option to enter it is given in the file of server1.py and server2.py
+
+Use client as per the instructions in tutorial.pdf
+
+After running the server as
+"python server1.py 5000"
+"python server2.py 5000"
+run the client the a message will be displayed for connected 
+
+I have included some extra headers in the client.c to remove warnings 
+They are:
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+
+I have tested server 1 and 2 for:
+    Positive numbers for all four arithmetic operations
+    Negative numbers for all four arithmetic operations
+    It is expected that the numbers and operator will be separated by space and the whole input will 
+        be trimmed of extra space at the beginning and end just as explained in the tutorial.pdf 
+
+All the tests that were mentioned were performed and both the servers passed the tests
+
+
+Reference:
+stackexchange for doubts 
+Geeks  for Geeks for understanding the code
